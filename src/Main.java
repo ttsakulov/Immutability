@@ -5,6 +5,6 @@ public class Main {
         product.setPrice(1450);
         System.out.println("Имя: " + product.getName());
         System.out.println("БарКод: " + product.getBarCode());
-        System.out.println("Цена: " + product.getPrice() + "р.");
+        System.out.println("ger " + product.getPrice() + "р.");
     }
 }
