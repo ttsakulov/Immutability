@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Product product = new Product("Молоко", "432167814320");
-
-        product.setPrice(1450);
-        System.out.println("Имя: " + product.getName());
-        System.out.println("БарКод: " + product.getBarCode());
-        System.out.println("Цена: " + product.getPrice() + "р.");
+        Book book = new Book("Руслан и Людмила", "А.С.Пушкин", 264, "978-5-389-13586-4");
+        System.out.println("Название книги - " + book.getName());
+        System.out.println("Автор - " + book.getAuthor());
+        System.out.println("Количество страниц - " + book.getCountOfPages());
+        System.out.println("Номер ISBN - " + book.getISBN());
     }
 }
